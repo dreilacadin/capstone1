@@ -58,6 +58,12 @@ footer {
 	margin-right: 20px;
 }
 
+.dashboard-circle:hover {
+	filter: brightness(105%);
+	cursor: pointer;
+	transition: 0.3s;
+}
+
 #post-circle {
 	background-color: turquoise;
 	margin-left: 60px;
@@ -93,6 +99,12 @@ footer {
 	color: #fff;
 }
 
+.btn:hover {
+	filter: brightness(110%);
+	cursor: pointer;
+	transition: 0.3s;
+}
+
 .btn-blue {
 	background-color: #09c;
 }
@@ -103,6 +115,7 @@ footer {
 
 #btn-browse {
 	margin-left: 20px;
+	display: none;
 }
 
 .hide-overflow {
@@ -145,9 +158,4 @@ main {
 	margin-left: 20px;
 }
 
-.btn-indianred:hover {
-	background-color: #d67979;
-	cursor: pointer;
-	transition: 0.3s;
-}
 
