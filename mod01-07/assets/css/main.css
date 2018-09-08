@@ -141,4 +141,13 @@ main {
 
 .btn-indianred {
 	background-color: #CD5C5C;
+	float: right;
+	margin-left: 20px;
 }
+
+.btn-indianred:hover {
+	background-color: #d67979;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
