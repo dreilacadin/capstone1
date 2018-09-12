@@ -39,9 +39,66 @@ footer {
 	padding-top: 530px;
 	text-align: center;
 	float: left;
+	display: none;
 }
 
 .grid {
 	position: relative;
 	top: -960px;
 }
+
+/*input:checked ~ .grid .clm {
+	display: block;
+}*/
+
+.switch {
+	position: relative;
+	display: block;
+	width: 90px;
+	height: 55px;
+	margin-bottom: 30px;
+}
+
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0; left: 0; right: 0; bottom: 0;
+	background: #fff;
+	transition: 0.5s;
+	border: 3px solid white;
+	box-shadow: 1px 1px 1px rgba(0,0,0, 0.1);
+}
+
+.slider:before {
+	position:absolute;
+	content: "";
+	bottom: 14px;
+	background-color: lightgray;
+	transition: 0.5s;
+}
+
+.switch input {
+	display: none;
+}
+
+input:checked + .slider {
+	background-color: black;
+}
+
+.slider.round {
+	border-radius: 35px;
+}
+
+.slider.round:before {
+	width: 43%;
+	height: 43%;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	transform: rotateZ(-45deg);
+}
+
+input:checked + .slider:before {
+	transform:translateX(47px) rotateZ(45deg);
+	background-color: yellow;
+}
+
