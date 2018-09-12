@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.black-container {
+	width: 700px;
+	height: auto;
+	margin: 10px auto;
+	padding: 10px;
+	background-color: black;
+}
+
+.grey-boxes1 {
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+	float: left;
+	background-color: gray;
+}
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
