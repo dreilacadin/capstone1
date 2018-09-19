@@ -10,7 +10,7 @@ html,body{height:100%;}
 
 .navbar-custom {
     /*background-color: #087E8B !important;*/
-    background: rgba(0,0,0,0.2) !important;
+    background: rgba(0,0,0,0.9) !important;
     color: #fff;
     z-index: 99;
 }
@@ -210,7 +210,15 @@ h2, p {
     margin-top: -73px;
 }
 
-.navbar-nav {
+/*.navbar-nav {
     position: absolute !important;
     z-index: 100 !important;
+}*/
+
+.navbar-brand {
+    margin-top: -6px;
+}
+
+#brand-blue {
+    color: #1edee2;
 }
