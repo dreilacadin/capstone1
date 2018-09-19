@@ -9,8 +9,10 @@ html,body{height:100%;}
 .carousel-inner{height:100%;}
 
 .navbar-custom {
-    background-color: #087E8B !important;
+    /*background-color: #087E8B !important;*/
+    background: rgba(0,0,0,0.2) !important;
     color: #fff;
+    z-index: 99;
 }
 
 /* change the brand and text color */
@@ -204,3 +206,11 @@ h2, p {
     padding-left: 20px;
 }
 
+#carouselExampleFade {
+    margin-top: -73px;
+}
+
+.navbar-nav {
+    position: absolute !important;
+    z-index: 100 !important;
+}
