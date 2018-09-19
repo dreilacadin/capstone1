@@ -9,7 +9,7 @@ html,body{height:100%;}
 .carousel-inner{height:100%;}
 
 .navbar-custom {
-    background-color: rgba(0, 0, 0, 0.2) !important;
+    background-color: #087E8B !important;
     color: #fff;
 }
 
@@ -41,19 +41,19 @@ html,body{height:100%;}
 
 .intro-container {
     display: table-cell;
-    height: auto;
+    height: 570px;
     background: rgba(255,255,255,0.8);
     margin: 0;
-    padding: 20px 50px;
+    padding: 30px 50px;
     vertical-align: middle;
 }
 
 .rooms-container {
     display: table-cell;
     background: rgba(9, 160, 221, 0.9);
-    height: auto;
+    height: 550px;
     margin: 0;
-    padding: 20px 50px;
+    padding: 90px 50px;
     vertical-align: middle;
     text-align: right;
     color: #FFFFFF;
@@ -62,20 +62,20 @@ html,body{height:100%;}
 
 .moments-container {
     display: table-cell;
-    height: auto;
-    background: rgba(48, 206, 179, 0.9);
+    height: 550px;
+    background: rgba(48, 206, 179, 0.8);
     margin: 0;
-    padding: 20px 50px;
+    padding: 90px 50px;
     vertical-align: middle;
     color: #FFFFFF;
 }
 
 .location-container {
     display: table-cell;
-    height: auto;
-    background: rgba(9, 160, 221, 0.9);
+    height: 550px;
+    background: rgba(9, 160, 221, 0.8);
     margin: 0;
-    padding: 20px 50px;
+    padding: 90px 50px;
     vertical-align: middle;
     text-align: right;
     color: #FFFFFF;
@@ -163,6 +163,14 @@ html,body{height:100%;}
     margin: 0px;
 }
 
+.center-table-location {
+    display: table;
+    height: auto;
+    background: rgba(0,0,0,0) url(https://images.pexels.com/photos/531035/pexels-photo-531035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat fixed center center / 100% auto;
+    width: 100%;
+    margin: 0px;
+}
+
 .back-to-top {
     cursor: pointer;
     position: fixed;
@@ -181,3 +189,18 @@ html,body{height:100%;}
     height: 100%;
     margin: 0;
 }
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2, p {
+    font-family: 'Raleway', sans-serif;
+}
+
+#brandlogo {
+    font-family: 'Cinzel Decorative', cursive;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
