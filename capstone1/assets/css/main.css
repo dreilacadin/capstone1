@@ -1,18 +1,26 @@
+
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-html,body{height:100%;}
-.carousel,.item,.active{height:100%;}
-.carousel-inner{height:100%;}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
 
 .navbar-custom {
     /*background-color: #087E8B !important;*/
     background: rgba(0,0,0,0.9) !important;
     color: #fff;
     z-index: 99;
+}
+
+/*remove burger border*/
+.navbar-toggler {
+  outline: none!important;
 }
 
 /* change the brand and text color */
@@ -33,9 +41,9 @@ html,body{height:100%;}
 }
 
 /*this is a white icon with 50% opacity*/
- .navbar-light .navbar-toggler-icon {
-   color: #fff !important;
- }
+.navbar-light .navbar-toggler-icon {
+ color: #fff !important;
+}
 
 .d-block {
     height: 100vh;
@@ -43,17 +51,18 @@ html,body{height:100%;}
 
 .intro-container {
     display: table-cell;
-    height: 570px;
-    background: rgba(255,255,255,0.8);
+    height: auto;
+    background: rgba(255,255,255,1);
     margin: 0;
     padding: 30px 50px;
     vertical-align: middle;
+    opacity: 0.8;
 }
 
 .rooms-container {
     display: table-cell;
-    background: rgba(9, 160, 221, 0.9);
-    height: 550px;
+    background: rgba(9, 160, 221, 1);
+    height: auto;
     margin: 0;
     padding: 90px 50px;
     vertical-align: middle;
@@ -64,24 +73,27 @@ html,body{height:100%;}
 
 .moments-container {
     display: table-cell;
-    height: 550px;
-    background: rgba(48, 206, 179, 0.8);
+    height: auto;
+    background: rgba(48, 206, 179, 1);
     margin: 0;
     padding: 90px 50px;
     vertical-align: middle;
     color: #FFFFFF;
+    opacity: 0.8;
 }
 
 .location-container {
     display: table-cell;
-    height: 550px;
-    background: rgba(9, 160, 221, 0.8);
+    height: auto;
+    background: rgba(9, 160, 221, 1);
     margin: 0;
     padding: 90px 50px;
     vertical-align: middle;
     text-align: right;
     color: #FFFFFF;
+    opacity: 0.8;
 }
+
 
 .iframe-container{
     position: relative;
@@ -182,8 +194,8 @@ html,body{height:100%;}
 }
 
 .btn {
-      transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out !important;
-      border-radius: 150px !important;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out !important;
+  border-radius: 150px !important;
 }
 
 .iframe-container {
@@ -213,12 +225,101 @@ h2, p {
 /*.navbar-nav {
     position: absolute !important;
     z-index: 100 !important;
-}*/
+    }*/
 
-.navbar-brand {
-    margin-top: -6px;
-}
+    .navbar-brand {
+        margin-top: -6px;
+    }
 
-#brand-blue {
-    color: #1edee2;
-}
+    #brand-blue {
+        color: #1edee2;
+    }
+
+    .cleartrans:hover {
+        opacity: 1;
+        transition: 0.3s;
+    }
+
+    .fa-facebook {
+        color: #3b5998;  
+    }
+
+    .fa-instagram {
+        color: #fd1d1d;
+    }
+
+    .fa-linkedin {
+        color: #007bb6;
+    }
+
+    .fa-twitter {
+        color: #1da1f2;
+    }
+
+    .back-to-top {
+        position: fixed;
+    }
+
+    #footer-logo {
+        width: 60px;
+    }
+
+    .our-hours {
+        padding: 17px 0px;
+    }
+
+    @media screen and (max-width: 700px) {
+        #hide-mobile {
+            display: none;
+        }
+
+        .textlink {
+            font-size: 26px;
+            color: #09a0dd;
+            font-size: 1.9rem;
+        }
+
+        .textlinkcopy {
+            font-size: 1.1rem;
+            color: #777777;
+        }
+
+        #brandlogo {
+            margin-left: -10px;
+        }
+
+        #b-logo {
+            width: 60px;
+        }
+
+        #carouselExampleFade {
+            margin-top: 0;
+        }
+
+        .center-table {
+            background: transparent;
+            height: 40vh;
+        }
+
+        .center-table-location {
+            background: transparent;
+        }
+
+        .center-table-moments {
+            background: transparent;
+        }
+
+        .center-table-rooms {
+            background: transparent;
+        }
+
+        .center-table-bodycopy {
+            background: transparent;
+        }
+
+        .header-design-blue, .text-secondary {
+            font-size: 1.8rem;
+            text-align: center;
+            justify-content: center;
+        }
+    }
