@@ -268,58 +268,70 @@ h2, p {
         padding: 17px 0px;
     }
 
-    @media screen and (max-width: 700px) {
-        #hide-mobile {
-            display: none;
-        }
+    .animated {
+       -webkit-animation-duration: 2s;
+       animation-duration: 1.9s;
+       -webkit-animation-fill-mode: both;
+       animation-fill-mode: both;
+   }
 
-        .textlink {
-            font-size: 26px;
-            color: #09a0dd;
-            font-size: 1.9rem;
-        }
-
-        .textlinkcopy {
-            font-size: 1.1rem;
-            color: #777777;
-        }
-
-        #brandlogo {
-            margin-left: -10px;
-        }
-
-        #b-logo {
-            width: 60px;
-        }
-
-        #carouselExampleFade {
-            margin-top: 0;
-        }
-
-        .center-table {
-            background: transparent;
-            height: 40vh;
-        }
-
-        .center-table-location {
-            background: transparent;
-        }
-
-        .center-table-moments {
-            background: transparent;
-        }
-
-        .center-table-rooms {
-            background: transparent;
-        }
-
-        .center-table-bodycopy {
-            background: transparent;
-        }
-
-        .header-design-blue, .text-secondary {
-            font-size: 1.8rem;
-            text-align: center;
-            justify-content: center;
-        }
+   @media screen and (max-width: 700px) {
+    #hide-mobile {
+        display: none;
     }
+
+    .textlink {
+        font-size: 26px;
+        color: #09a0dd;
+        font-size: 1.9rem;
+    }
+
+    .textlinkcopy {
+        font-size: 1.1rem;
+        color: #777777;
+    }
+
+    #brandlogo {
+        margin-left: -10px;
+    }
+
+    #b-logo {
+        width: 60px;
+    }
+
+    #carouselExampleFade {
+        margin-top: 0;
+    }
+
+    .center-table {
+        background: transparent;
+        height: 40vh;
+    }
+
+    .center-table-location {
+        background: transparent;
+    }
+
+    .center-table-moments {
+        background: transparent;
+    }
+
+    .center-table-rooms {
+        background: transparent;
+    }
+
+    .center-table-bodycopy {
+        background: transparent;
+    }
+
+    .header-design-blue, .text-secondary {
+        font-size: 1.8rem;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #learn-more-btn, #book-now-btn {
+        font-size: 8px;
+        margin: 0 5px;
+    }
+}
