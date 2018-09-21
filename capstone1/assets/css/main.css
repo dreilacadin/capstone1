@@ -1,5 +1,3 @@
-
-
 * {
     padding: 0;
     margin: 0;
@@ -150,7 +148,7 @@
 }
 
 .textlinkcopy {
-    font-size: 18px;
+    font-size: 1.2rem;
 }
 
 .center-table-bodycopy {
@@ -196,6 +194,7 @@
 .btn {
   transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out !important;
   border-radius: 150px !important;
+  box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
 }
 
 .iframe-container {
@@ -222,60 +221,67 @@ h2, p {
     margin-top: -73px;
 }
 
-/*.navbar-nav {
-    position: absolute !important;
-    z-index: 100 !important;
-    }*/
+.navbar-brand {
+    margin-top: -6px;
+}
 
-    .navbar-brand {
-        margin-top: -6px;
-    }
+#brand-blue {
+    color: #1edee2;
+}
 
-    #brand-blue {
-        color: #1edee2;
-    }
+.cleartrans:hover {
+    opacity: 1;
+    transition: 0.3s;
+}
 
-    .cleartrans:hover {
-        opacity: 1;
-        transition: 0.3s;
-    }
+.gallery-title {
+    text-shadow: 4px 1px 2px #b2a98f,
+                 4px 12px 11px rgba(0,0,0,0.15),
+                 4px 22px 3px rgba(0,0,0,0.1),
+                 4px 32px 31px rgba(0,0,0,0.1);
+}
 
-    .fa-facebook {
-        color: #3b5998;  
-    }
+.fa-facebook {
+    color: #3b5998; 
+}
 
-    .fa-instagram {
-        color: #fd1d1d;
-    }
+.fa-instagram {
+    color: #fd1d1d;
+}
 
-    .fa-linkedin {
-        color: #007bb6;
-    }
+.fa-linkedin {
+    color: #007bb6;
+}
 
-    .fa-twitter {
-        color: #1da1f2;
-    }
+.fa-twitter {
+    color: #1da1f2;
+}
 
-    .back-to-top {
-        position: fixed;
-    }
+.back-to-top {
+    position: fixed;
+}
 
-    #footer-logo {
-        width: 60px;
-    }
+#footer-logo {
+    width: 10rem;
+}
 
-    .our-hours {
-        padding: 17px 0px;
-    }
+.our-hours {
+    padding: 17px 0px;
+}
 
-    .animated {
-       -webkit-animation-duration: 2s;
-       animation-duration: 1.9s;
-       -webkit-animation-fill-mode: both;
-       animation-fill-mode: both;
-   }
+#headline-title {
+    text-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+}
 
-   @media screen and (max-width: 700px) {
+.animated {
+   -webkit-animation-duration: 2s;
+   animation-duration: 1.9s;
+   -webkit-animation-fill-mode: both;
+   animation-fill-mode: both;
+}
+
+
+@media screen and (max-width: 700px) {
     #hide-mobile {
         display: none;
     }
@@ -305,7 +311,8 @@ h2, p {
 
     .center-table {
         background: transparent;
-        height: 40vh;
+        height: 20vh;
+        padding: 30px;
     }
 
     .center-table-location {
@@ -333,5 +340,57 @@ h2, p {
     #learn-more-btn, #book-now-btn {
         font-size: 8px;
         margin: 0 5px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+
+    .center-table  {
+        display: table;
+        height: 556px;
+        background: rgba(0,0,0,0) url(https://wpcdn.hotelhosting.co/wp-content/uploads/sites/1253/2016/10/checkavailbg-1.jpg) no-repeat fixed center center / 100% 900px;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .center-table-moments{
+        display: table;
+        height: auto;
+        background: rgba(0,0,0,0) url(https://images.pexels.com/photos/237272/pexels-photo-237272.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat fixed center center / 100% 800px;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .center-table-bodycopy {
+        display: table;
+        height: auto;
+        background: rgba(0,0,0,0) url(https://wpcdn.hotelhosting.co/wp-content/uploads/sites/1253/2017/02/PearlFarmBeachResort-SamalPhilippines-bg122.jpg) no-repeat fixed center center / 100% 800px;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .center-table-rooms {
+        display: table;
+        height: auto;
+        background: rgba(0,0,0,0) url(https://wpcdn.hotelhosting.co/wp-content/uploads/sites/1253/2016/11/PearlFarmBeachResort-SamalPhilippines-bg2-1.jpg) no-repeat fixed center center / 100% 800px;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .center-table-moments {
+        display: table;
+        height: auto;
+        background: rgba(0,0,0,0) url(https://images.pexels.com/photos/237272/pexels-photo-237272.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat fixed center center / 100% 800px;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .center-table-location {
+        display: table;
+        height: auto;
+        background: rgba(0,0,0,0) url(https://images.pexels.com/photos/531035/pexels-photo-531035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat fixed center center / 100% 800px;
+        width: 100%;
+        margin: 0px;
     }
 }

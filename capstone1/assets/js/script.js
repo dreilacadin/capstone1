@@ -18,3 +18,8 @@ $(document).ready(function(){
         $('#back-to-top').tooltip('show');
 
 });
+
+// MDB Lightbox Init
+$(function () {
+    $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+});
