@@ -592,17 +592,19 @@ h2, p {
     transform: translate(-50%, -488%)
 }
 
-@media screen and (min-width: 1900px) {
+@media screen and (min-width: 1026px) {
      #contact-title {
         font-family: 'Cinzel Decorative', cursive;
-        margin-top: -55vh;
-        padding-bottom: 50vh;
         font-size: 6em;
         text-shadow: 4px 4px 4px rgba(0,0,0,0.2);
     }
 
-    #learn-more-btn, #book-now-btn {
-        margin-top: -20vh;
+    #contactus-carousel {
+        min-height: 100vh!important;
+    }
+
+    #learn-more-btn,#book-now-btn {
+        margin-top: -25vh;
     }
 }
 /* Animation */
