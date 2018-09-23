@@ -8,14 +8,14 @@
   <meta name="author" content="Drei Lacadin">
   <meta property="og:locale" content="en_US">
   <meta name="description" content="PLT Wellness and Mountain Resort">
-  <title> PLT Wellness and Mountain Resort | Home</title>
+  <title> PLT Wellness and Mountain Resort | Loading Page</title>
   <!-- bulma CDN -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
   <!-- font awesome -->
   <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <!-- google fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:600|Raleway:300|Cinzel+Decorative:900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:600|Raleway:300|Cinzel+Decorative:900|Great+Vibes" rel="stylesheet">
   <!-- <link rel="stylesheet" type="text/css" href="./assets/css/debugger.css"> -->
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -23,6 +23,10 @@
   <link rel="stylesheet" type="text/css" href="./assets/css/animate.css">
   <!-- lightbox css -->
   <link href="./assets/css/lightbox.css" rel="stylesheet">
+  <!-- normalize CSS -->
+  <link rel="stylesheet" href="./assets/css/normalize.css">
+  <!-- preloader CSS -->
+  <link rel="stylesheet" type="text/css" href="./assets/css/preloader.css">
   <!-- main CSS -->
   <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -32,64 +36,39 @@
   <!-- lightbox js -->
   <script src="./assets/js/lightbox.js"></script>
   <!-- Optional JavaScript -->
-  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/preloader.js"></script>
+  <!-- modernizer js -->
+  <script src="./assets/js/modernizr-2.6.2.min.js"></script>
   <!-- favicon -->
   <link rel="icon" href="./assets/img/favicon-16x16.png" type="image/gif" sizes="16x16">
 </head>
 <body>
-<!-- start of landing page -->
-  <div class="container-fluid">
-    <div class="row">
-    <div class="col-6">
-      
+  <!-- S-loader -->
+  <div id="loader-wrapper">
+    <div id="logo-container">
+      <img src="./assets/img/plt-logo-02.svg" alt="plt logo" id="pltlogo">
     </div>
-<!-- start of login form -->
-  <div class="col-6">
-    <div class="card text-center" style="width:50%;">
-      <div class="card-header">
-        <h1> Sign up for you free PLT Resort Account </h1>
-      </div>
-      <form class="container-fluid">
-        <div class="row my-3">
-          <div class="col-6">
-            <input type="text" class="form-control form-control-lg" placeholder="First name">
-          </div>
-          <div class="col-6">
-            <input type="text" class="form-control form-control-lg" placeholder="Last name">
-          </div>
-        </div>
-        <div class="row my-3">
-          <div class="col">
-            <input type="email" class="form-control form-control-lg" placeholder="Your email">
-          </div>
-          <div class="col">
-            <input type="password" class="form-control form-control-lg" placeholder="Set a password">
-          </div>
-        </div>
-        <div class="row my-3">
-          <div class="col">
-            <select class="form-control">
-              <option> How did you first here about us </option>
-              <option> Facebook </option>
-              <option> Instagram </option>
-              <option> Twitter </option>
-              <option> Subscription letter </option>
-              <option> Others </option>
-            </select>
-          </div>
-        </div>
-        <div class="row my-3">
-          <div class="col">
-            <a class="btn btn-outline-primary btn-lg btn-block" href="home.html"> Sign in & Explore </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <p><small>By clicking this button, you agree to our <a href="#">Terms of Service.</a></p></small>
-          </div>
-      </form>
+    <div id="loader"></div>
+
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
   </div>
-</div>
-<!-- end of landing page -->
+  <!-- e-loader -->
+  <!-- s-landing page -->
+  <section id="header">
+    <div class="container-fluid">
+      <header>
+        <h1 id="headerlogo"> 
+          <span id="brand-blue" class="brandlogo">PLT Wellness</span><span id="brand-white" class="brandlogo">and Mountain Resort</span>
+        </h1>
+        <p class="mx-4"> A paradise in the heart of a valley.</p>
+      </header>
+    </div>
+  </section>
+  <footer id="lp-footer">
+    <a href="home.html" class="button style2 scrolly-middle btn btn-light pt-2" id="takeme-btn"> Take me there! </a>
+  </footer> 
+  
+  <!-- e-landing page -->
 </body>
 </html>

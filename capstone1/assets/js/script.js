@@ -23,3 +23,17 @@ $(document).ready(function(){
 $(function () {
     $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
 });
+
+// Book Now Button
+$(document).ready(function(){
+    $("#book-now-btn").on('click',function(){
+        window.open('contact-us.html');
+    });
+});
+
+// Learn More Button
+$(document).ready(function(){
+    $("#learn-more-btn").on('click',function(){
+        window.open('home.html');
+    });
+});
