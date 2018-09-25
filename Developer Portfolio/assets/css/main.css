@@ -2,6 +2,10 @@ li {
 	list-style: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .has-image-centered {
   margin-left: auto;
   margin-right: auto;
@@ -55,3 +59,40 @@ h2, p, h3, button, a {
     flex-direction: column;
     margin-top: 10px;
 }
+
+.card {
+  display:flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#herobanner {
+  margin-top: -73px;
+  background: url("../img/herobanner.jpeg")!important;
+  height: 120vh;
+  position:relative;
+  top:-100px;
+}
+
+#dev-name {
+  text-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+}
+
+.cool-link li {
+  display: inline-block!important;
+}
+
+.cool-link a {
+  text-decoration: none!important;
+  color: #fff!important;
+  padding: 0 5px!important;
+  margin: 0 30px;
+  width: 100%;
+}
+
+.cool-link a:hover {
+  border-bottom: 1px solid white;
+  background: rgba(0,0,0,0.2);
+  transition: width 0.9s!important;
+}
+
